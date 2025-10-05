@@ -103,3 +103,26 @@ i{
     top: 96%;
     z-index: 6;
 }
+#clothes img{
+    height: 120px;
+}
+#clothes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 200px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 15px;
+    position: absolute;
+    left: 80%;
+    gap: 5px;
+    
+}
+#clothes h3{
+    font-size: 35px;
+}
+#clothes p{
+    font-size: 15px;
+}
