@@ -1,7 +1,12 @@
+@font-face {
+    font-family: clean;
+    src: url(./old_school_united_shadow_italic.ttf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: clean;
 }
 html,body{
     height: 100%;
@@ -151,7 +156,7 @@ html,body{
 }
 #img-div img{
     height: 30px;
-    width: 40px;
+    width: 35px;
     border-radius: 5px;
 
 }
