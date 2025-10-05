@@ -6,11 +6,8 @@
 html,body{
     height: 100%;
     width: 100%;
-}
-
-#main{
-    background-color:black ;
-    color: aliceblue;
+    background: linear-gradient(to right, #9abbc4, #f8e4d1);
+    color: black;
 }
 
 #nav{
@@ -21,8 +18,8 @@ html,body{
 }
 #nav a{
     text-decoration: none;
-    color: aliceblue;
     margin-right: 20px;
+    color: black;
 }
 #nav > img{
     height: 40px;
@@ -39,4 +36,70 @@ html,body{
 #getapp img{
     height: 30px;
     width: 30px;
+}
+
+#shirt{ 
+    position: absolute;
+    height: 600px;
+    width: 960px;
+    left: 12%;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.shirt-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+}
+.shirt-div img{
+    height: 30px;
+}
+
+#div1{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 6;
+}
+#div2{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    z-index: 6;
+}
+i{
+    color: yellow; 
+}
+#rating{
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+#slogan {
+    width: 700px;
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+}
+#new{
+    position: absolute;
+    top: 54%;
+    z-index: 6;
+                      
+}
+#care{
+    position: absolute;
+    top: 68%;
+    z-index: 6;
+}
+#for{
+    position: absolute;
+    top: 81%;
+}
+#wardrobe{
+    position: absolute;
+    top: 96%;
+    z-index: 6;
 }
