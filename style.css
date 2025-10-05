@@ -22,14 +22,14 @@ html,body{
     color: black;
 }
 #nav > img{
-    height: 40px;
+    height: 30px;
     width: 90px;
 }
 #getapp{
     display: flex;
     align-items: center;
     gap: 10px;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius:10PX ;
     padding: 5px 40px;
 }
@@ -69,7 +69,7 @@ html,body{
     left: 55%;
     z-index: 6;
 }
-i{
+#rating i{
     color: yellow; 
 }
 #rating{
@@ -125,4 +125,39 @@ i{
 }
 #clothes p{
     font-size: 15px;
+}
+
+#bottom-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 130%;
+    background-color: rgb(15, 24, 24);
+    padding: 40px;
+
+    
+}
+
+#img-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#img-div p{
+    color: white;
+    font-size: 25px;
+}
+#img-div img{
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+
+}
+
+#bottom-div button{
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
 }
